@@ -30,7 +30,7 @@ public class modifyAction extends ActionSupport {
 	private File upload; //파일 객체
 	private String uploadContentType; //컨텐츠 타입
 	private String uploadFileName; //파일 이름
-	private String fileUploadPath = "D:/upload/"; //업로드 경로.
+	private String fileUploadPath = BoardConstants.FILE_UPLOAD_PATH; //업로드 경로.
 
 	// 생성자
 	public modifyAction() throws IOException {

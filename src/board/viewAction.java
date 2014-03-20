@@ -10,7 +10,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.IOException;
-
 import java.net.URLEncoder;
 
 public class viewAction extends ActionSupport {
@@ -25,7 +24,7 @@ public class viewAction extends ActionSupport {
 	private int no;
 	private String password;
 
-	private String fileUploadPath = "D:/upload/";
+	private String fileUploadPath = BoardConstants.FILE_UPLOAD_PATH;
 
 	private InputStream inputStream;
 	private String contentDisposition;

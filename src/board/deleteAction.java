@@ -18,7 +18,7 @@ public class deleteAction extends ActionSupport {
 
 	private int currentPage;	//현재 페이지
 	
-	private String fileUploadPath = "D:/upload/";
+	private String fileUploadPath = BoardConstants.FILE_UPLOAD_PATH;
 	
 	private int no;
 	
